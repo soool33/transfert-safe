@@ -1,0 +1,88 @@
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 14px;
+	line-height:30px;
+	color:#777;
+	background: paleturquoise;
+}
+
+.container {
+	max-width:450px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="file"], #contact input[type="email"], #contact input[type="password"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="file"], #contact input[type="email"], #contact input[type="password"]{
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#boutton {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: linear-gradient(0deg, #06ff00, #06ff00);
+	margin-left: 9px;
+}
+
+#sad {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: linear-gradient(0deg, #ff3535, #ff3535);
+	margin-left: 9px;
+}
